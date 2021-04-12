@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>egg example</title>
+  </head>
+  <link rel="stylesheet" href="/public/common.css">
+  <body>
+    <%for(let i in newsList){%>
+      <h1><%=newsList[i].title%></h1>
+      <p><%=newsList[i].subTitle%></p>
+    <%}%>
+  </body>
+</html>
